@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Varela+Round&display=swap');
-.App{
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Varela+Round&display=swap");
+.App {
   background-color: gold;
   height: 100vh;
 }
 
-.headerContainer{
-  display:flex;
+.headerContainer {
+  display: flex;
   justify-content: space-around;
   height: 20vh;
   background-color: transparent;
   padding-right: 150px;
   padding-top: 20px;
-  font-family: 'Nunito' sans-serif;
+  font-family: "Nunito" sans-serif;
 }
 
 /* @media (max-width: 1000px) {
@@ -20,19 +20,17 @@
   }
 } */
 
-.leftHeader{
+.leftHeader {
   background-color: transparent;
   width: 50%;
   margin-left: 50px;
-
 }
 
-.navBar{
+.navBar {
   background-color: transparent;
-  
+
   display: flex;
   justify-content: space-between;
-
 }
 
 @media (max-width: 1000px) {
@@ -42,42 +40,42 @@
   }
 }
 
-li{
-  display:inline-block;
+li {
+  display: inline-block;
   margin-right: 45px;
-  
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: azure;
 }
 
-.Bodycontainer{
-
-background: linear-gradient(to bottom, rgba(42, 42, 44, 0.52), #000), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-height: 100vh;
-width: 100vw;
+.Bodycontainer {
+  background: linear-gradient(to bottom, rgba(42, 42, 44, 0.52), #000),
+    url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg")
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
-.mainBodyContainer{
-display: flex;
-justify-content: center;
-background-color: transparent;
-font-family: 'Varela Round', sans-serif;
+.mainBodyContainer {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  font-family: "Varela Round", sans-serif;
 
   /* font-size: xx-large;
   font-weight: 100; */
 }
 
-.mainBody{
+.mainBody {
   font-size: xx-large;
   font-weight: 100;
   background: -webkit-linear-gradient(#fff, rgb(100, 100, 100));
@@ -85,6 +83,6 @@ font-family: 'Varela Round', sans-serif;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
-p{
+p {
   font-size: medium;
 }
