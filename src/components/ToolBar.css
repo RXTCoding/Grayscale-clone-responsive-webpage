@@ -46,7 +46,7 @@
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: blue;
+  color: rgb(53, 53, 53);
 }
 
 @media screen and (max-width: 760px) {
